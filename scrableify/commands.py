@@ -10,7 +10,9 @@ def scrableify():
 
 def emojify(char):
   if char == " ":
-    return "    "
-  else:
+    return ":scrabble-blank:"
+  elif char.isalpha():
     return ":scrabble-{}:".format(char)
+  else:
+    return char
 

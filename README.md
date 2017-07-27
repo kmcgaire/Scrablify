@@ -16,3 +16,5 @@ pip install -e ./scrableify
 
 ## Usage
 `scrableify "some text"`
+Outputs
+`:scrabble-s::scrabble-o::scrabble-m::scrabble-e::scrabble-blank::scrabble-t::scrabble-e::scrabble-x::scrabble-t:`
